@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class ProductsServlet {
+import javax.servlet.http.HttpServlet;
+
+public class ProductsServlet extends HttpServlet {
 }
