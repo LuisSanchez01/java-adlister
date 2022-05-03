@@ -69,14 +69,9 @@ public class AuthorsDao implements Authors {
             rs.next();
             long key = rs.getLong(1);
             return key;
-        } catch (SQLException sqle){
+        } catch (SQLException sqle) {
             throw new RuntimeException("error connecting to db", sqle);
         }
-    }
-
-    @Override
-    public Author getAuthorById(int author_id) {
-        return null;
     }
 }
 

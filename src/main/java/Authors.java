@@ -6,6 +6,4 @@ public interface Authors {
     Author getAuthorById(long id);
 
     long insert(Author author);
-
-    Author getAuthorById(int author_id);
 }

@@ -8,6 +8,6 @@ public class Config {
     }
 
     public String getPassword(){
-        return null;
+        return "codeup-1";
     }
 }
