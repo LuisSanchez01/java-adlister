@@ -25,6 +25,11 @@ public class RegisterServlet extends HttpServlet {
        boolean fieldsNotNull = false;
        boolean fieldsNotEmpty = false;
 
+//       Ensure that only new usernames are registered
+//        call dao factory users dao
+//        searchByUserName
+//        pass the username to the dao method and if not exists then
+//        set emailDoesntExist
 //       if (username.equals(/))
 
        if (username != null & email != null && password != null) {
